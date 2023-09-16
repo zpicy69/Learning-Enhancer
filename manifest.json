@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Learning Enhancer",
+  "version": "1.0",
+  "description": "Double-click any word to get its definition, synonyms, and usage.",
+  "host_permissions": [
+    "https://api.wordnik.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "css": ["styles.css"]
+  }],
+  "icons": {
+    "48": "icon.png"
+  }
+}
