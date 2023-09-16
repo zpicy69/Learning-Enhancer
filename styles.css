@@ -1,11 +1,11 @@
 .learning-enhancer-modal {
-    position: absolute;
-    border: 1px solid #ccc;
+    position: absolute; /* Position the modal */
+    border: 1px solid #ccc;/* Add a grey border */
     background-color: #000;     /* Set the background to black */
     color: #fff;                /* Set the text color to white */
-    padding: 10px;
-    border-radius: 4px;
-    max-width: 250px;
+    padding: 10px;/* Add some padding */
+    border-radius: 4px;/* Add rounded corners */
+    max-width: 250px;/* Set a max width */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);  /* Adjusted for the new background color */
-    z-index: 9999;
+    z-index: 9999;/* Sit on top */
 }
