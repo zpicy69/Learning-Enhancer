@@ -1,4 +1,4 @@
-const WORDNIK_API_KEY = 'r7dvxmoy7ke6lz4eotyl3kndgb2bpitm0kvcon2zhbglyg5uc';
+const WORDNIK_API_KEY = 'YOUR_API_KEY_HERE'; // get your own key at https://developer.wordnik.com/
 const WORDNIK_BASE_URL = 'https://api.wordnik.com/v4/word.json';
 
 document.addEventListener('dblclick', function(event) {
